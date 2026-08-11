@@ -1,0 +1,132 @@
+<title>The Operator's Brief — Hub</title>
+<style>
+  :root{
+    --paper:#F7F5EF; --raised:#FFFFFF; --ink:#1A1D24; --ink-soft:#3A3E48;
+    --muted:#6B6E76; --faint:#9A9CA2; --rule:#E1DDD2; --rule-strong:#C9C4B6;
+    --accent:#9E2B25; --accent-soft:#B8514A; --band:#1A1D24; --band-ink:#F2EFE7;
+    --serif:Georgia,'Iowan Old Style','Times New Roman',serif;
+    --sans:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono','Menlo','Cascadia Mono',monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --paper:#12141A; --raised:#1A1D24; --ink:#E9E6DE; --ink-soft:#C4C1B8;
+      --muted:#9195A0; --faint:#6A6E78; --rule:#2A2E38; --rule-strong:#3A3F4B;
+      --accent:#E4695F; --accent-soft:#C9564D; --band:#0C0D12; --band-ink:#E9E6DE;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#12141A; --raised:#1A1D24; --ink:#E9E6DE; --ink-soft:#C4C1B8;
+    --muted:#9195A0; --faint:#6A6E78; --rule:#2A2E38; --rule-strong:#3A3F4B;
+    --accent:#E4695F; --accent-soft:#C9564D; --band:#0C0D12; --band-ink:#E9E6DE;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6;
+    font-size:17px;margin:0;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:760px;margin:0 auto;padding:0 22px;}
+  .band{background:var(--band);color:var(--band-ink);border-bottom:3px solid var(--accent);}
+  .band .wrap{padding:28px 22px 24px;}
+  .kicker{font-family:var(--mono);font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-soft);}
+  .masthead{font-family:var(--serif);font-weight:700;font-size:clamp(32px,7vw,48px);line-height:1.02;
+    margin:12px 0 6px;letter-spacing:-.01em;}
+  .masthead .the{color:var(--accent-soft);}
+  .tagline{font-family:var(--serif);font-style:italic;font-size:15px;opacity:.82;max-width:56ch;}
+  main .wrap{padding:34px 22px 60px;}
+
+  .latest{background:var(--raised);border:1px solid var(--rule);border-left:4px solid var(--accent);
+    border-radius:5px;padding:24px 26px;margin-bottom:40px;}
+  .latest .l-label{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:10px;}
+  .latest .l-date{font-family:var(--mono);font-size:12.5px;color:var(--muted);}
+  .latest h1{font-family:var(--serif);font-size:27px;line-height:1.18;font-weight:700;margin:6px 0 12px;letter-spacing:-.01em;text-wrap:balance;}
+  .latest p{font-size:16px;color:var(--ink-soft);margin:0 0 20px;}
+  .btn{display:inline-block;background:var(--accent);color:#fff;font-family:var(--sans);font-weight:600;
+    font-size:14.5px;padding:11px 22px;border-radius:4px;text-decoration:none;letter-spacing:.01em;}
+  .btn:hover{background:var(--accent-soft);}
+
+  .arch-head{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:7px;margin-bottom:6px;}
+  .arch-head h2{font-family:var(--serif);font-size:20px;margin:0;font-weight:700;}
+  .arch-head .n{font-family:var(--mono);font-size:12px;color:var(--accent);}
+  .ed{display:block;text-decoration:none;color:inherit;border-bottom:1px solid var(--rule);padding:16px 0;}
+  .ed:hover{background:var(--raised);}
+  .ed-top{display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;}
+  .ed-date{font-family:var(--mono);font-size:12.5px;color:var(--accent);letter-spacing:.03em;white-space:nowrap;}
+  .ed-num{font-family:var(--mono);font-size:11px;color:var(--faint);}
+  .ed-title{font-family:var(--serif);font-size:17px;line-height:1.35;margin:4px 0 0;color:var(--ink);}
+  .foot{margin-top:36px;padding-top:16px;border-top:1px solid var(--rule);font-size:13px;color:var(--muted);}
+  .toggle{position:fixed;top:14px;right:14px;z-index:20;font-family:var(--mono);font-size:11px;letter-spacing:.08em;
+    background:var(--raised);color:var(--ink);border:1px solid var(--rule-strong);border-radius:20px;padding:6px 13px;
+    cursor:pointer;text-transform:uppercase;}
+  .toggle:hover{border-color:var(--accent);color:var(--accent);}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+</style>
+
+<button class="toggle" id="tg" aria-label="Toggle colour theme">◐ Theme</button>
+
+<header class="band">
+  <div class="wrap">
+    <div class="kicker">Daily Market Intelligence · Mumbai</div>
+    <div class="masthead"><span class="the">The</span> Operator's Brief</div>
+    <div class="tagline">What changed, what it implies, and where the desk disagrees with the tape. One reader. Every morning.</div>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+
+  <div class="latest">
+    <div class="l-label">◆ Latest Edition</div>
+    <div class="l-date">Edition 007 · Tuesday, 11 August 2026 · Pre-open</div>
+    <h1>The oil-shock regime reintroduces the fear the market just shed</h1>
+    <p>Forty-eight hours after "the market that stopped fearing the Fed," a 5% oil spike put Brent back at $88 and the hike fear right back on the table. Gold prints $4,340 and copper broke $12,000 for the first time ever, while a Warsh Fed, the ECB and the BoJ all lean hawkish — even as US July payrolls went negative (−23k). India's domestic engine runs hot (SBI, LIC, GST +15.4%, PVs +33.6%) while foreigners have pulled ₹2.41 lakh crore YTD and Nifty refuses to break. Inside: why the FII-bearish read is fighting the last war, why I'd fade the September hike into a cracking labour market, the primary-market supply flood that could finally tire the domestic bid, and the capital cycle tying copper, gold and $725bn of AI capex into one lens.</p>
+    <a class="btn" href="https://claude.ai/code/artifact/06154917-b775-4826-92d5-b57e67be7a6b">Read Edition 007 →</a>
+  </div>
+
+  <div class="arch-head"><span class="n">▤</span><h2>Archive</h2></div>
+  <div class="archive">
+    <a class="ed" href="https://claude.ai/code/artifact/06154917-b775-4826-92d5-b57e67be7a6b">
+      <div class="ed-top"><span class="ed-date">Tue · 11 Aug 2026</span><span class="ed-num">Edition 007</span></div>
+      <div class="ed-title">The oil-shock regime reintroduces the fear the market just shed</div>
+    </a>
+    <a class="ed" href="https://claude.ai/code/artifact/ef7ef4d4-a069-4934-8d5f-5421bf85e1ee">
+      <div class="ed-top"><span class="ed-date">Sun · 9 Aug 2026</span><span class="ed-num">Edition 006 · weekend</span></div>
+      <div class="ed-title">The market that stopped fearing the Fed</div>
+    </a>
+    <a class="ed" href="https://claude.ai/code/artifact/2ec4c46e-184f-4957-9202-d799daf94afa">
+      <div class="ed-top"><span class="ed-date">Sat · 8 Aug 2026</span><span class="ed-num">Edition 005 · weekend</span></div>
+      <div class="ed-title">The tape treads water while three forces tighten: a macroprudential RBI, a record-weak rupee, and a deferred pharma-tariff cliff</div>
+    </a>
+    <a class="ed" href="https://claude.ai/code/artifact/1897d68f-844b-47c0-93eb-2fd1d23fdf3d">
+      <div class="ed-top"><span class="ed-date">Fri · 7 Aug 2026</span><span class="ed-num">Edition 004</span></div>
+      <div class="ed-title">The wait ends tonight: risk-off drifts in, and the oil hedge finally pays</div>
+    </a>
+    <a class="ed" href="https://claude.ai/code/artifact/e4a761b2-b8f6-44e3-afec-8963509c2986">
+      <div class="ed-top"><span class="ed-date">Thu · 6 Aug 2026</span><span class="ed-num">Edition 003</span></div>
+      <div class="ed-title">A growth-tilted pause, a hawkish world, and a market being paid to wait</div>
+    </a>
+    <a class="ed" href="https://claude.ai/code/artifact/0c8b12c4-07c2-4734-8b5b-db2c607bb805">
+      <div class="ed-top"><span class="ed-date">Wed · 5 Aug 2026</span><span class="ed-num">Edition 002</span></div>
+      <div class="ed-title">Wall Street's record on an unpaid bet — the Hormuz reopening the ships haven't confirmed</div>
+    </a>
+    <a class="ed" href="https://claude.ai/code/artifact/3cca4e88-d297-4a2b-aec0-4656adedf6f9">
+      <div class="ed-top"><span class="ed-date">Tue · 4 Aug 2026</span><span class="ed-num">Edition 001 · first issue</span></div>
+      <div class="ed-title">The Fed put is dead; oil's war premium drains — trade the relief, don't marry it</div>
+    </a>
+  </div>
+
+  <div class="foot">
+    The Operator's Brief · India-first daily market intelligence, one reader. Editions are private artifacts; this hub keeps a permanent link while each day's edition mints its own. Not investment advice.
+  </div>
+
+</div>
+</main>
+
+<script>
+  (function(){
+    var b=document.getElementById('tg');
+    function cur(){var e=document.documentElement.getAttribute('data-theme');
+      if(e)return e;return window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';}
+    b.addEventListener('click',function(){
+      document.documentElement.setAttribute('data-theme',cur()==='dark'?'light':'dark');
+    });
+  })();
+</script>
