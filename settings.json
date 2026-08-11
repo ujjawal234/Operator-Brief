@@ -1,0 +1,43 @@
+{
+  "$comment": "Permission allowlist for The Operator's Brief scheduled task. Everything the daily run touches is pre-approved here so the schedule never stops to ask. Add to a repo attached as the schedule's source so it persists across the ephemeral containers.",
+  "permissions": {
+    "allow": [
+      "Bash(date:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(echo:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(git:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "WebSearch",
+      "WebFetch",
+      "Artifact",
+      "mcp__Gmail__create_draft",
+      "mcp__Gmail__list_drafts",
+      "mcp__Gmail__update_draft",
+      "mcp__Gmail__list_labels"
+    ],
+    "deny": []
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/session-start.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
