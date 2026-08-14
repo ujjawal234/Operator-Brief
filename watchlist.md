@@ -1,30 +1,33 @@
 # Watchlist — unresolved items rolled forward between editions
 # Format: - [ ] <item> — flagged <date>, why it matters, what would resolve it
 
-## Open (as of Edition 008, 12 Aug 2026)
+## Open (as of Edition 010, 14 Aug 2026)
 
-- [ ] **India July CPI** — RESOLVING today (12 Aug, 4:00pm). Reuters poll ~4.50% vs June 4.38%. ≤4.4% + soft US print reopens Oct RBI cut & squeezes FII short book; ≥4.6% with Brent $90 shuts the 2026 easing door. RESOLVE: read the actual 4pm print in tomorrow's edition.
-- [ ] **US July CPI** — RESOLVING today (~6pm IST). Consensus ~3.4% hdl (whisper 3.2%), core ~4.7%. Soft print deflates the Sept-hike scare but core ~4.7% blocks a cut → "higher-for-longer, both-ways." Some wires already floating 3.2% pre-release — treat as unconfirmed. RESOLVE: official BLS print tonight.
-- [ ] **Tata Sons governance / Chandrasekaran** — flagged 12 Aug (NEW). Bloomberg-sourced report he may step down before the 18 Aug AGM amid a Trusts governance war + Shapoorji Pallonji exit pressure. Overhang on the whole Tata complex (TCS, Tata Motors, Titan, Trent, Tata Power, Tata Steel). Buried tail: a forced Tata Sons listing/stake sale = potentially India's largest-ever supply event. RESOLVE: 18 Aug AGM vote + any board/Trusts statement.
-- [ ] **Brent crude direction** — flagged 11 Aug, WORSENED. Now ~$89.5, near $90 (+0.7% overnight) on unresolved US–Iran/Hormuz impasse — did NOT roll over as the bull case needs. Break >$92 (July high) re-rates CAD/INR/CPI/yields together; roll-back <$80 revives the dovish-pivot trade. RESOLVE: daily; watch Hormuz throughput + US–Iran talks.
-- [ ] **Shiprocket IPO** — flagged 11 Aug, UPDATED. Opened 12 Aug (band ₹92–97, ~₹1,600 cr, loss-making, closes 14 Aug, lists 19 Aug). GMP ~₹16–26 above band = ~16–27% implied pop — warm but not frothy. First live read on primary appetite / crowding-out. RESOLVE: subscription multiples (14 Aug) + listing-day (19 Aug).
-- [ ] **Tata Motors + IRCTC Q1 (and 63-co earnings day)** — flagged 12 Aug (NEW). Tata Motors reports into its own promoter's governance headline; watch JLR margins vs domestic EV inflection (record 15,217 EV units in July). RESOLVE: parse reported numbers + management commentary.
-- [ ] **Zepto listing** — flagged 11 Aug. Updated DRHP filed; reignited q-comm complex. Watch pricing/timeline + read-through to the internet basket. RESOLVE: SEBI approval + price band.
-- [ ] **Jio IPO ("Project Jupiter")** — flagged 11 Aug. DRHP progressing toward India's largest-ever offering; central to primary-supply theme + telecom ARPU trade. RESOLVE: DRHP filing / timeline confirmation.
-- [ ] **FII flow inflection** — flagged 11 Aug, DATA CONFLICT. 10–11 Aug provisional prints came through feeds inconsistently (one had FIIs net buyers ~₹1,975 cr / DIIs net sellers ₹1,290 cr — mirror of prior roundups). YTD outflow ~₹2.4 lakh cr; deep domestic bid absorbing. RESOLVE: reconcile against confirmed NSDL/CDSL numbers; watch whether FII buying resumes or reverses.
-- [ ] **Korea semiconductor exports** — flagged 12 Aug (NEW). +155% YoY in first 10 days of August to $9.95bn on AI demand — hard primary confirmation the AI hardware cycle is still accelerating. Bullish global semis + Indian IT read-through. RESOLVE: watch full-month Korea export data + Nvidia earnings for confirmation/contradiction.
-- [ ] **Nvidia earnings + B30A China approval** — flagged 11 Aug. Late-Aug print; binary US-govt decision on Blackwell-based B30A for China after H20 wind-down. Sets global AI risk appetite Nifty IT tracks. RESOLVE: earnings date + any export-license headline.
-- [ ] **Jackson Hole 27–29 Aug** — flagged 11 Aug. Warsh's first keynote as Chair; post-twin-CPI, this is where the "no-hike-no-cut" regime gets ratified or broken. RESOLVE: the speech.
-- [ ] **BoJ / yen carry-unwind risk** — flagged 11 Aug. BoJ at 1.0% (highest since 1995), 10Y JGB 2.81%, yen near lows with intervention in play. Disorderly yen move = fastest route to global risk-off hitting Nifty. RESOLVE: watch USD/JPY + any Sept BoJ hike signal.
+- [ ] **Tata Sons succession / AGM** — RESOLVED to fact, now LIVE into Mon 18 Aug. Chandrasekaran confirmed 12 Aug he will NOT seek reappointment (term ends 20 Feb 2027); Sir Dorabji Tata Trust moving to form a selection committee. Noel Tata chairs the Trusts and cannot chair Tata Sons under the Articles → succession is genuinely open. AGM Monday = transition mechanics + any quorum wrinkle, not a reappointment vote. Buried tail = forced Tata Sons listing/stake sale to fund the SP exit (18.37% of Tata Sons, ~₹3 lakh cr vs ~₹60,000 cr group debt) = potentially India's largest-ever supply event. RESOLVE: the 18 Aug AGM + any successor/selection-committee signal.
+- [ ] **Brent crude — THE binding variable** — flagged since 11 Aug; ROLLED OVER 14 Aug to ~$87 from $89–91 on the Hormuz-blockade-as-containment read. This is the single variable now gating a Fed cut, the rupee and India's CPI (US core is benign at 2.5%, so only energy-driven headline keeps the Fed on hold). Hold <$85 = bigger dovish catalyst than any print; re-break >$92 re-latches the gate. Russia-oil-sanctions reimposition (G7) is the upside risk. RESOLVE: daily.
+- [ ] **US rate path — cut now gated by oil alone** — flagged/updated 13–14 Aug. July CPI: headline 3.4%, CORE 2.5% (Feb low). Sept hike odds ~35%, base case a hold. With core near target + payrolls −23k, a cut re-enters the frame the moment oil confirms lower. RESOLVE: next US CPI + Jackson Hole (27–29 Aug) + the Brent screen.
+- [ ] **Shiprocket IPO** — closed 14 Aug (band ₹92–97), GMP ~₹31 (~32% pop); allotment 17 Aug, lists 19 Aug. First live crowding-out read, now with Zepto delayed (less competing supply). RESOLVE: final subscription multiple + 19 Aug listing-day performance.
+- [ ] **Zepto IPO — POSTPONED** — flagged 13 Aug. Delayed ~2–3 quarters (1 Aug townhall), size possibly trimmed toward $650–700M; FY26 revenue doubled to ₹22,623 cr but net loss WIDENED to ₹5,905 cr. Removes the middle pillar of the near-term IPO supply flood → eases crowding-out risk for 2–3 quarters. RESOLVE: refiled DRHP / new timeline.
+- [ ] **Jio IPO ("Project Jupiter")** — DRHP filed 19 June: all-primary ~₹37,700 cr (~$4bn), 27 cr shares, ~2.9% dilution, 19 banks, India's largest-ever. With Zepto slipped, Jio is now the single biggest test of the domestic bid's absorption. RESOLVE: price band / listing date.
+- [ ] **Nvidia earnings + B30A China license** — late-Aug print. H20 exports resumed under license WITH a 15%-of-China-revenue remittance to the US Treasury (novel "export tax"); Blackwell-based B30A (~80% Blackwell perf, 144GB HBM3E) built and awaiting approval. Binary catalyst for global AI risk appetite / Nifty IT. RESOLVE: earnings date + any license headline.
+- [ ] **Jackson Hole 27–29 Aug** — Warsh's first keynote as Chair, post-twin-CPI. Whether he links the cut path to the oil gate is the tell. RESOLVE: the speech.
+- [ ] **September auto retail registrations** — flagged 12 Aug. The truth serum for July's +33.6% industry wholesale surge (channel-stuffing vs real demand). Watch alongside TMPV's record EV inflection (>34,000 units, +112%). RESOLVE: early-Sep registration data.
+- [ ] **India Aug CPI (the oil echo)** — July benign at 4.45% on a low-oil base; food 5.52%. Oxford Economics flags a possible Dec RBI hike (I'd fade it now oil is easing). If oil stays eased, Aug confirms benign; if Hormuz re-spikes, food+fuel reopens the hawkish read. RESOLVE: ~mid-Sep print.
+- [ ] **BoJ / yen carry-unwind risk** — BoJ 1.0% (highest since 1995), 10Y JGB ~2.84%, yen near lows with intervention live; ECB (2.25%) teeing a Sept hike. DM-divergence-around-one-oil-shock is the setup; disorderly yen move into thin holiday-adjacent liquidity = fastest route to global risk-off hitting Nifty. RESOLVE: watch USD/JPY.
+- [ ] **FII ownership at 14-year low (~14.7%)** — flagged 13 Aug. YTD outflow ~₹2.2–2.4 lakh cr; foreign ownership lowest since ~2012 while index won't break. Marginal seller running low on ammunition; FII net-short futures book (~1.5 lakh contracts) = squeeze fuel. RESOLVE: watch whether FII buying resumes as oil eases.
 
 ## Data flags to verify in later editions
-- [ ] PNB Q1 FY27 growth (+214% figure looks inconsistent with base) — reconcile with filing.
-- [ ] Bank of Baroda Q1 ~72% YoY profit drop — confirm one-off / provision cause.
-- [ ] Hindalco & JSW Steel Q1 FY27 actuals — only previews found; verify reported numbers.
 - [ ] Anthropic ~$965bn Series H valuation & rumoured IPO filing — single-sourced; confirm vs primary before citing.
 - [ ] US–India tariff stacking — does the 10% "forced-labour" tariff (23–24 Jul) sit on top of the 18% Feb deal rate? Verify combined effective rate for exporters.
-- [ ] US July CPI ~3.2% headline pre-release figures on some wires — confirm against official BLS print.
+- [ ] Gold level — Ed 009 had record ~$4,399 (12 Aug); a late-week feed showed ~$4,000s on 14 Aug. A >8% two-day fall would need a story that isn't there — reconcile against a clean spot source next edition.
+- [ ] Copper level — narrative carried "$12,000/tonne"; a tradingeconomics read implied ~$6.57/lb (~$14,500/t). Reconcile units/venue.
 
-## Resolved
-- Edition 007 (11 Aug) watchlist items on India/US July CPI and Shiprocket IPO were "resolving" events that landed on/around 12 Aug; carried forward with updates above.
-- Prior editions 001–007 exist as published artifacts.
+## Resolved (Editions 007–009 items now closed)
+- **India July CPI** → 4.45% (vs 4.38% June), food 5.52%. In line; shuts the 2026 easing door without forcing a hike.
+- **US July CPI** → headline 3.4%, CORE 2.5% (Feb low). The "core ~4.7%" figure carried in Ed 007–008 was an ERROR, corrected in Ed 009. The cut is gated by oil, not sticky core.
+- **Chandrasekaran step-down** → confirmed (see Open, now the live AGM item).
+- **Tata Motors Q1** → CV PAT ~₹2,560 cr (+83%); TMPV PAT ~₹775 cr (−~80%, JLR drag; domestic EV +112%, >34,000 units).
+- **PNB +214% / BoB −72% flags** → both resolve NOT thesis-breaking: PNB +213.6% (₹5,253 cr) real on a depressed base (GNPA 2.78%); BoB −72% was a ~₹5,700 cr NMC Health settlement one-off (ex-item PAT ~₹5,528 cr).
+- **Hindalco & JSW Steel Q1 actuals** → Hindalco PAT +75% (₹7,013 cr); JSW Steel PAT +112% (~₹4,650 cr). Confirmed strong.
+- **FII flow data conflict (10–11 Aug)** → reconciled; 13 Aug clean print FII −₹511 cr / DII +₹4,353 cr, year's signature pattern intact.
+- Prior editions 001–009 exist as published artifacts (see hub).
